@@ -1,0 +1,31 @@
+{
+  "name": "rootr-cli",
+  "version": "0.3.0",
+  "description": "Official Rootr CLI + MCP server — read, write, edit and search Rootr documents from the shell or from an AI agent.",
+  "type": "module",
+  "bin": {
+    "rootr": "bin/rootr.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwmage/rootr-cli.git"
+  },
+  "homepage": "https://rootr.io/mcp",
+  "bugs": {
+    "url": "https://github.com/gwmage/rootr-cli/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  }
+}
