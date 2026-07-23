@@ -1,0 +1,5 @@
+node_modules
+.git
+*.jsonl
+err*.txt
+glama.html
